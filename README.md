@@ -21,6 +21,28 @@ Before starting, ensure you have the following installed on your machine:
 - **PostgreSQL** database server running locally
 
 ---
+## Project Structure
+
+```
+Metro-Route-Fare-Planner
+│
+├── backend/
+│   ├── app/
+│   ├── services/
+│   ├── routes/
+│   └── requirements.txt
+│
+├── frontend/
+│   ├── src/
+│   ├── components/
+│   └── package.json
+│
+├── database_setup/
+│   ├── postgres_init.sql
+│   └── sqlite_ddl_description.md
+│
+└── README.md
+```
 
 ## Setup Instructions
 
@@ -82,3 +104,18 @@ Database alraedy initialized
    npm run dev
    ```
    The React application will launch at `http://localhost:5173`.
+
+---
+
+##  Author
+
+**Ankita Debnath**
+
+B.Tech CSE | Full Stack Developer
+
+GitHub:
+https://github.com/CoderBird1718
+
+##  Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
